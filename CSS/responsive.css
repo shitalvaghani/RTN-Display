@@ -1,0 +1,269 @@
+@media (min-width: 1920px) and (max-width: 2560px) {
+    html {
+        font-size: 100%;
+    }
+
+    h3 {
+        line-height: 4.5rem;
+    }
+
+    h6 {
+        font-size: 2.8rem;
+    }
+
+
+
+    .about .mainContainer .bigText {
+        max-width: 75rem;
+    }
+
+    .about .innerContainer img {
+        height: 5rem;
+    }
+
+    p {
+        font-size: 2.5rem;
+    }
+
+    .carousel-cell {
+        height: 55rem;
+    }
+
+    .flickity-enabled.is-draggable .flickity-viewport {
+        height: 55rem !important;
+    }
+
+    .review .row .customercard .rate img {
+        width: 1.5rem;
+    }
+
+    .header .navbar {
+        padding: 20px 45px;
+    }
+
+    .header .navbar-brand .logo {
+        height: 150px;
+    }
+
+    .header .nav-item .nav-link {
+        font-size: 40px;
+    }
+
+    .header .nav-item .nav-link {
+        padding-right: 2.5rem;
+    }
+
+    .main-btn {
+        padding: 25px 55px;
+        font-size: 25px;
+    }
+
+
+
+
+}
+
+@media (min-width: 993px) and (max-width:1200px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .about .mainContainer .text {
+        padding-top: 10rem;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .navbar-toggler-icon {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .header .navbar-collapse {
+        text-align: center;
+    }
+
+    .header .navbar {
+        padding: 20px 45px;
+    }
+
+    .header .nav-item .nav-link {
+        padding-bottom: 2rem;
+    }
+
+    .review .row .customercard .customimg img {
+        height: 6rem;
+        width: 6rem;
+    }
+
+
+
+}
+
+
+
+@media (max-width:768px) {
+
+    html {
+        font-size: 55%;
+    }
+
+
+    p {
+        text-align: center;
+        line-height: 2.9rem;
+        font-size: 1.8rem;
+    }
+
+    h1 {
+        text-align: center;
+        padding-bottom: 2rem;
+        font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    h6 {
+        font-size: 1.9rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    section {
+        max-height: 1245px;
+
+    }
+
+    .header .nav-item .nav-link {
+        padding-bottom: 2rem;
+    }
+
+    .carousel-cell {
+        height: 350px;
+    }
+
+    .flickity-enabled.is-draggable .flickity-viewport {
+        height: 350px !important;
+    }
+
+    .features .box .card .icon {
+        height: 7rem;
+    }
+
+    .features .content {
+        flex-direction: column;
+    }
+
+    .features .box .card {
+        margin: auto;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .review .row .customercard .rate img {
+        max-width: 1.4rem;
+    }
+
+    .review .row .customercard .customimg img {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .review .row .customercard .rate {
+        right: 1rem;
+    }
+
+    .review .row .customercard .name {
+        line-height: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+
+
+    .review .row .customercard .name span {
+        font-size: 1.3rem;
+    }
+
+    .review .row .card {
+        padding: 1.5rem;
+    }
+
+}
+
+@media (max-width:576px) {
+    html {
+        font-size: 40%;
+    }
+
+
+
+    .navbar-toggler-icon {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    section {
+        padding-bottom: 20px;
+    }
+
+    .header .navbar .logo {
+        height: 50px;
+    }
+
+    p {
+        font-size: 1.7rem;
+        padding-top: 2rem;
+        line-height: 3rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 2.5rem;
+    }
+
+    .review .row .customercard .name span {
+        font-size: 2rem;
+    }
+
+    .review .row .customercard .name {
+        padding-left: 2rem;
+    }
+
+    .carousel-cell {
+        height: 300px;
+    }
+
+    .flickity-enabled.is-draggable .flickity-viewport {
+        height: 300px !important;
+    }
+
+    .flickity-prev-next-button {
+        height: 3rem !important;
+        width: 3rem !important;
+    }
+
+    .about .innerContainer img {
+        height: 4.5rem;
+    }
+
+
+}

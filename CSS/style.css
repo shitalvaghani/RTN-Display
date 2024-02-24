@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+/* general css start */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: var(--text-black);
+}
+
+h2{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: var(--text-gray);
+
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-card);
+    line-height: 1.5;
+}
+
+h5 {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+h6 {
+    color: var(--text-black);
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+p {
+    font-weight: 500;
+    font-size: 1.9rem;
+    color: var(--text-gray);
+}
+
+:root {
+    /* background color*/
+    --bg-button: #1A002E;
+    --bg-white: #fff;
+    --bg-gray: #F6F6F6;
+    --bg-review-card: #F2EAF1;
+    --bg-button-pink:#BA2871;
+    --bg-button-green:#3FF53B;
+
+
+    /* text color */
+    --text-gray: #565656;
+    --text-black: #000000;
+    --text-white: #fff;
+    --text-review-card: #2F2F2F;
+    --text-green:#03C52D;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--bg-button);
+}
+
+
+
+
+
+.navbar {
+    background-color: var(--bg-white);
+}
+
+
+
+
+
+section {
+    max-height: 60rem;
+}
+
+.paddingContainer{
+    padding: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------- Navbar css start ------------------------*/
+
+
+
+
+.header .navbar {
+    padding: 0px 4.5rem;
+}
+
+.header .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+.header .nav-item .nav-link {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-right: 2rem;
+    color: var(--text-black);
+}
+
+.header .nav-item .nav-link.active,
+.header .nav-item .nav-link:hover {
+    color: gray;
+}
+
+
+
+.main-btn {
+    border-radius: 1rem;
+    transition: .2s;
+
+    padding: 1.5rem 3.5rem;
+    border-radius: 8.3rem;
+    background-color: var(--bg-button);
+    color: var(--text-white);
+    text-align: center;
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-align: end;
+    transition: all 0.5s ease-out;
+
+}
+
+.main-btn:hover {
+    background-color: var(--text-gray);
+    color: var(--text-white);
+}
+
+/*--------------- Navbar css end ------------------------*/
+
+
+
+/*--------------- About section css start ------------------------*/
+.mainContainer {
+    margin-top: 1rem;
+}
+
+.about .mainContainer .text {
+    padding-top: 15rem;
+}
+
+.about .mainContainer .bigText {
+    max-width: 62rem;
+}
+
+.about .mainContainer .text h3 span {
+    color: var(--text-black);
+}
+
+.about .header-buttons {
+    padding-top: 4.5rem;
+}
+
+.about .header-buttons .button {
+    background-color: var(--bg-white);
+    border: 0.1rem solid var(--bg-button);
+    color: var(--text-black);
+}
+
+.about .header-buttons .button:hover {
+    background-color: var(--text-gray);
+    color: var(--text-white);
+}
+
+.about .mainContainer .row {
+    display: flex;
+}
+
+.about .mainContainer .row img {
+    height: 5rem;
+}
+
+.about .innerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+
+/*--------------- About section css end ------------------------*/
+
+/* ---------------slider section css start -----------------*/
+
+.slider {
+    background-image: url(../assets/images/bgimage\ 1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 5rem;
+}
+
+.slider .carousel {
+    max-width: 90rem;
+}
+
+/* ---------------slider section css end -----------------*/
+
+/* ---------------features section css start -----------------*/
+
+.features .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.features .box .card {
+    /* max-width: 38rem; */
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 0rem !important;
+    background-color: var(--bg-gray);
+    transition: 0.4s ease;
+}
+.features .box .row {
+    margin-top: 6rem;
+}
+
+.features .box .card .icon {
+    height: 6rem;
+}
+
+.features .box .card:hover {
+    transform: translateY(-2rem);
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.3);
+}
+
+/* ---------------features section css end -----------------*/
+
+
+/* ---------------main slider section css start -----------------*/
+
+
+
+.carousel-cell {
+    width: 90%;
+    height: 50rem;
+    margin-right: 1rem;
+    border-radius: 1.5rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-cell::before {
+    display: block;
+    content: "";
+}
+
+/* ---------------main slider section css end -----------------*/
+
+
+/* ------------------review section css start------------- */
+
+.review .row .customercard {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+
+.review .content p {
+    padding-top: 1rem;
+}
+
+.review .row .card {
+    margin-top: 4rem;
+    border: none;
+    padding: 2.5rem;
+    background-color: var(--bg-review-card);
+    border-radius: 1rem;
+}
+
+.review .row .card p {
+    padding-top: 3rem;
+}
+
+.review .row .customercard .customimg {
+
+    overflow: hidden;
+
+}
+
+.review .row .customercard .customimg img {
+    height: 5rem;
+    width: 5rem;
+}
+
+
+
+.review .row .customercard .name {
+    position: relative;
+    padding-left: 1.5rem;
+    width: 100%;
+    line-height: 0rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.review .row .customercard .name span {
+    font-size: 1.6rem;
+}
+
+.review .row .customercard .rate {
+    position: absolute;
+    right: 5rem;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review .row .customercard .rate img {
+    margin-left: 0.5rem;
+    /* max-width: 3rem; */
+}
+.review .row .customercard .rate img {
+    max-width: 4rem;
+}
+
+
+.carousel-indicators {
+    bottom: -6rem !important;
+    justify-content: flex-end !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+
+}
+
+.carousel-indicators li {
+    height: 1rem !important;
+    width: 1rem !important;
+    border-radius: 50% !important;
+    background-color: var(--bg-button) !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../assets/svg/leftaerrow.svg) !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/svg/rightarrow.svg) !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 6rem !important;
+    height: 6rem !important;
+    left: 1em !important;
+    top: 100% !important;
+    opacity: 1!important;
+
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    height: 4rem!important;
+    width: 4rem!important;
+}
+.carousel-control-next {
+   
+    left: 6em !important;
+
+}
+/* ------------------review section css end------------- */
+
+/* ------------------pricing section css start------------- */
+
+.pricing{
+background-color: var(--bg-review-card);
+margin-top: 6rem;
+}
+
+.pricing .container{
+    background-color: var(--bg-white);
+}
+
+/* ------------------pricing section css end------------- */
