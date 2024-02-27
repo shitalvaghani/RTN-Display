@@ -25,7 +25,7 @@ h1 {
     color: var(--text-black);
 }
 
-h2{
+h2 {
     font-weight: 700;
     font-size: 4rem;
 }
@@ -70,8 +70,10 @@ p {
     --bg-white: #fff;
     --bg-gray: #F6F6F6;
     --bg-review-card: #F2EAF1;
-    --bg-button-pink:#BA2871;
-    --bg-button-green:#3FF53B;
+    --bg-button-pink: #BA2871;
+    --bg-light-pink: #ba287114;
+    --bg-button-green: #3ff53b2e;
+    --bg-scanner: #F5EEFA;
 
 
     /* text color */
@@ -79,7 +81,9 @@ p {
     --text-black: #000000;
     --text-white: #fff;
     --text-review-card: #2F2F2F;
-    --text-green:#03C52D;
+    --text-green: #03C52D;
+    --text-dark-gray: #848199;
+    --text-pink: #ED2A8C;
 
 }
 
@@ -108,11 +112,9 @@ p {
 
 
 
-section {
-    max-height: 60rem;
-}
 
-.paddingContainer{
+
+.paddingContainer {
     padding: 5rem;
 }
 
@@ -188,7 +190,7 @@ section {
 }
 
 .about .mainContainer .text {
-    padding-top: 15rem;
+    padding-top: 6rem;
 }
 
 .about .mainContainer .bigText {
@@ -255,6 +257,14 @@ section {
     justify-content: space-between;
 }
 
+.features .content h1 {
+    max-width: 30rem;
+}
+
+.features .content p {
+    max-width: 50rem;
+}
+
 
 .features .box .card {
     /* max-width: 38rem; */
@@ -264,6 +274,7 @@ section {
     background-color: var(--bg-gray);
     transition: 0.4s ease;
 }
+
 .features .box .row {
     margin-top: 6rem;
 }
@@ -298,80 +309,6 @@ section {
     content: "";
 }
 
-/* ---------------main slider section css end -----------------*/
-
-
-/* ------------------review section css start------------- */
-
-.review .row .customercard {
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-}
-
-
-
-.review .content p {
-    padding-top: 1rem;
-}
-
-.review .row .card {
-    margin-top: 4rem;
-    border: none;
-    padding: 2.5rem;
-    background-color: var(--bg-review-card);
-    border-radius: 1rem;
-}
-
-.review .row .card p {
-    padding-top: 3rem;
-}
-
-.review .row .customercard .customimg {
-
-    overflow: hidden;
-
-}
-
-.review .row .customercard .customimg img {
-    height: 5rem;
-    width: 5rem;
-}
-
-
-
-.review .row .customercard .name {
-    position: relative;
-    padding-left: 1.5rem;
-    width: 100%;
-    line-height: 0rem;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.review .row .customercard .name span {
-    font-size: 1.6rem;
-}
-
-.review .row .customercard .rate {
-    position: absolute;
-    right: 5rem;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.review .row .customercard .rate img {
-    margin-left: 0.5rem;
-    /* max-width: 3rem; */
-}
-.review .row .customercard .rate img {
-    max-width: 4rem;
-}
-
-
 .carousel-indicators {
     bottom: -6rem !important;
     justify-content: flex-end !important;
@@ -401,31 +338,337 @@ section {
     height: 6rem !important;
     left: 1em !important;
     top: 100% !important;
-    opacity: 1!important;
+    opacity: 1 !important;
 
 }
 
 .carousel-control-next-icon,
-.carousel-control-prev-icon{
-    height: 4rem!important;
-    width: 4rem!important;
+.carousel-control-prev-icon {
+    height: 4rem !important;
+    width: 4rem !important;
 }
+
 .carousel-control-next {
-   
+
     left: 6em !important;
 
 }
-/* ------------------review section css end------------- */
+
+/* ---------------main slider section css end -----------------*/
+
+
+/* ------------------review section css start------------- */
+
+
+
+.review .content h1 {
+    max-width: 70rem;
+}
+
+.review .content p {
+    padding-top: 1rem;
+    max-width: 50rem;
+}
+
+.review .row .card {
+    margin-top: 4rem;
+    border: none;
+    padding: 2.5rem;
+    background-color: var(--bg-review-card);
+    border-radius: 1rem;
+}
+
+.review .row .card p {
+    padding-top: 3rem;
+}
+
+.review .row .customercard {
+    display: flex;
+    align-items: center;
+}
+
+.review .row .customercard .name {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    padding-left: 1.5rem;
+}
+
+.review .customercard .name strong {
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.review .card span {
+    font-size: 1.5rem;
+}
+
+.review .card .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review .row .box .rate {
+    display: flex;
+
+}
+
+/*---------- review section end------------- */
+
+
+
 
 /* ------------------pricing section css start------------- */
 
-.pricing{
-background-color: var(--bg-review-card);
-margin-top: 6rem;
+.pricing {
+    background-color: var(--bg-review-card);
+    margin-top: 6rem;
 }
 
-.pricing .container{
+.pricing .pricingContainer {
     background-color: var(--bg-white);
+    padding: 5rem;
+    border-radius: 3rem;
+    margin-top: 7rem;
+}
+
+.pricing .pricingContainer .card strong {
+    font-size: 4rem;
+    /* padding-bottom: 2.5rem; */
+}
+
+.pricing .pricingContainer .card .cardBody {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.pricing .pricingContainer .card .plans {
+    flex-grow: 1;
+}
+
+.pricing .pricingContainer .row .card {
+    padding: 4rem;
+    border-radius: 3rem;
+    transition: 0.4s ease;
+    height: 100%;
+}
+
+.pricing .pricingContainer .card:hover {
+    box-shadow: 0 0.5rem 1rem 0 #5243C2;
+    transform: translateY(-3rem);
+    color: var(--text-white);
+    background-color: var(--bg-button);
+
+}
+
+.pricing .pricingContainer .card:hover p,
+.pricing .pricingContainer .card:hover .plans span {
+
+    color: var(--text-white);
+}
+
+.pricing .pricingContainer .card:hover .main-btn {
+    background-color: var(--bg-button-pink);
+}
+
+.pricing .pricingContainer .card:hover .deal .price,
+.pricing .pricingContainer .card:hover .deal .period {
+    color: var(--text-white);
+}
+
+
+.pricing .pricingContainer .card .plan1,
+.pricing .pricingContainer .card .plan2 {
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.pricing .pricingContainer .card .pera {
+    color: var(--text-dark-gray);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.pricing .pricingContainer .card .cardButton {
+    text-align: center;
+}
+
+.pricing .pricingContainer .card .cardButton .button {
+    padding: 1.5rem 6.8rem;
+}
+
+.pricing .pricingContainer .card .plans span {
+    font-size: 1.9rem;
+    color: var(--text-dark-gray);
+    font-weight: 600;
+    padding-left: 1.5rem;
+}
+
+.pricing .pricingContainer .card .bottom {
+    padding-bottom: 8rem;
+}
+
+.pricing .pricingContainer .card .top {
+    padding-top: 4.5rem;
+}
+
+.pricing .pricingContainer .card .populer p {
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    max-width: 15rem;
+    padding: 1rem 2.5rem;
+    background-color: var(--bg-light-pink);
+    color: var(--bg-button-pink);
+}
+
+.pricing .pricingContainer .card .populer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.pricing .pricingContainer .card .save p {
+    color: var(--text-green);
+    background-color: var(--bg-button-green);
+    border-radius: 1rem;
+    max-width: 11rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.pricing .pricingContainer .card .deal .price {
+    font-size: 4rem;
+    color: var(--text-black);
+    font-weight: 700;
+}
+
+.pricing .pricingContainer .deal {
+    display: flex;
+    align-items: center;
+}
+
+.pricing .pricingContainer .deal .period {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    color: var(--text-dark-gray);
+}
+
+.card {
+    border: 0px !important;
+}
+
+.pricing .paddingContainer .scannerContainer {
+    border-radius: 3rem;
+    background-color: var(--bg-scanner);
+    border-radius: 3rem;
+}
+
+.pricing .scannerContainer .row .first {
+    background-color: var(--bg-button-pink);
+    padding: 3rem 0rem;
+    text-align: center;
+    border-radius: 3rem 0 0 0;
+}
+
+.pricing .paddingContainer .scannerContainer .row .scanPrice {
+    background-color: var(--bg-white);
+    padding: 4rem;
+    border-radius: 0 0 0 3rem;
+}
+
+.pricing .scannerContainer .row .scanPrice strong {
+    font-size: 3.5rem;
+}
+
+.pricing .scannerContainer .row .scanPrice p {
+    color: var(--text-black);
+    font-size: 2rem;
+    max-width: 40rem;
+    padding-top: 2rem;
+}
+
+.pricing .scannerContainer .row .scanPrice p span {
+    font-weight: 700;
+    color: var(--text-pink);
+}
+
+.pricing .scannerContainer .row .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pricing .scannerContainer .row .scanInfo .head {
+    max-width: 35rem;
+    font-size: 3.5rem;
+    line-height: normal;
+    padding-bottom: 2.5rem;
+}
+
+.pricing .scannerContainer .row .scanInfo p {
+    max-width: 38rem;
+    padding-bottom: 4rem;
 }
 
 /* ------------------pricing section css end------------- */
+/* ------------------hardware section css start------------- */
+.hardware .paddingContainer h1 {
+    padding: 4rem 0;
+}
+
+.hardware .row .card {
+    background-color: var(--bg-scanner);
+    border-radius: 1rem;
+    height: 100%;
+}
+.hardware .row .card .card_body {
+    padding: 5rem;
+    
+}
+
+
+.hardware .row .card .item strong {
+    font-size: 3.5rem;
+}
+
+.hardware .row .card .item p {
+    padding-top: 2rem;
+    max-width: 37rem;
+}
+
+.hardware .row .card .logos {
+    padding-top: 3rem;
+}
+
+.hardware .row .card .logos .line img {
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.hardware .hardwareContainer .row>* {
+
+    padding-right: calc(var(--bs-gutter-x) * 2)!important;
+    padding-left: calc(var(--bs-gutter-x) * 2)!important;
+}
+
+.hardware .row .card .lotteryTv img{
+    max-width: 37rem;
+    padding-top: 3rem;
+
+}
+
+
+.hardware .row .card .scannerimg img{
+    height: 35rem;
+    padding-top: 3rem;
+
+}
+
+/* ------------------hardware section css end------------- */
