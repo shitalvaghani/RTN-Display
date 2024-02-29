@@ -1,104 +1,15 @@
 @media (min-width: 1920px) and (max-width: 2560px) {
-    html {
-        font-size: 100%;
+
+    body {
+        display: flex;
+        justify-content: center;
     }
 
-    h3 {
-        line-height: 4.5rem;
+    .fixed-top {
+        position: relative;
     }
 
-    h6 {
-        font-size: 2.8rem;
-    }
-
-
-
-    .about .mainContainer .bigText {
-        max-width: 75rem;
-    }
-
-    .about .innerContainer img {
-        height: 5rem;
-    }
-
-    p {
-        font-size: 2.5rem;
-    }
-
-    .carousel-cell {
-        height: 55rem;
-    }
-
-    .flickity-enabled.is-draggable .flickity-viewport {
-        height: 55rem !important;
-    }
-
-    .features .content p {
-        max-width: 70rem;
-    }
-
-    .review .row .rate img {
-        width: 1.8rem;
-    }
-
-    .review .customercard .name strong {
-        font-size: 2.5rem;
-    }
-
-    .review .row .card span {
-        font-size: 2rem;
-    }
-
-    .review .row .customercard .customimg img {
-        height: 5rem;
-        width: 5rem;
-    }
-
-    .header .navbar {
-        padding: 20px 45px;
-    }
-
-    .header .navbar-brand .logo {
-        height: 150px;
-    }
-
-    .header .nav-item .nav-link {
-        font-size: 40px;
-    }
-
-    .header .nav-item .nav-link {
-        padding-right: 2.5rem;
-    }
-
-    .main-btn {
-        padding: 25px 55px;
-        font-size: 25px;
-    }
-
-    .pricing .pricingContainer .card .save p {
-        font-size: 1.5rem;
-    }
-
-    .pricing .pricingContainer .card .plans .check {
-        height: 3rem;
-    }
-
-    .pricing .scannerContainer .row .first img {
-        height: 30rem;
-    }
-    .hardware .row .card .item p {
-        padding-top: 3rem;
-        max-width: 40rem;
-    }
-    .hardware .row .card .logos .line img {
-    width: 10rem;
-    }
-    .hardware .row .card .lotteryTv img {
-        width: 40rem;
-    }
-
-
-
+    
 }
 
 @media (min-width: 993px) and (max-width:1200px) {
@@ -111,9 +22,7 @@
         padding-top: 10rem;
     }
 
-    .pricing .pricingContainer .card .cardButton .button {
-        padding: 1.5rem 4.8rem;
-    }
+    
 }
 
 
@@ -145,9 +54,24 @@
         width: 5rem;
     }
 
-    .pricing .pricingContainer .card .cardButton .button {
-        padding: 1rem 2rem;
-        font-size: 1.3rem;
+    .pricing .pricingContainer .card .cardButton .btn {
+
+        padding: 0.5rem 2.5rem;
+
+    }
+
+    .pricing .pricingContainer .card .cardButton {
+        text-align: center;
+
+    }
+
+    .pricing .pricingContainer .row .card {
+        padding: 2rem;
+
+    }
+
+    .pricing .pricingContainer .deal .period {
+        font-size: 1.5rem;
     }
 
     .pricing .pricingContainer .card .deal .price {
@@ -194,7 +118,7 @@
         padding-top: 3rem;
     }
 
-    
+
 
 }
 
@@ -232,8 +156,6 @@
         height: 3.5em;
     }
 
-
-
     .header .nav-item .nav-link {
         padding-bottom: 2rem;
     }
@@ -259,9 +181,6 @@
         margin-bottom: 3rem;
         text-align: center;
     }
-
-
-
     .review .customercard .name strong {
         font-size: 1.4rem;
     }
@@ -274,13 +193,22 @@
         padding: 1.5rem;
     }
 
-    .pricing .pricingContainer .card .pera {
+    .pricing .pricingContainer .card .cardBody .pera {
         text-align: start;
     }
 
-    .pricing .pricingContainer .card .cardButton .button {
-        padding: 1rem 1.9rem;
-        font-size: 1.3rem;
+    .pricing .pricingContainer .row .card {
+        padding: 2rem;
+        height: auto;
+        margin-bottom: 4rem;
+    }
+
+    .pricing .pricingContainer .card .pt {
+        padding-bottom: 9.9rem;
+    }
+
+    .pricing .pricingContainer .card .pb {
+        padding-bottom: 6.9rem;
     }
 
     .pricing .pricingContainer .card strong {
@@ -332,9 +260,6 @@
     .pricing .scannerContainer .row .scanInfo .head {
         padding-top: 4rem;
     }
-
-
-
     .pricing .scannerContainer .row .scanPrice {
         display: flex;
         align-items: center;
@@ -362,7 +287,7 @@
     .hardware .row .card .scannerimg img {
         height: 29rem;
     }
-    
+
     .hardware .row .card .card_body {
         text-align: center;
 
@@ -373,8 +298,32 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
     }
+
+    .contact .row .add {
+        margin-top: 4rem;
+    }
+
+    .contact .row .add .card_body p {
+        text-align: start;
+    }
+
+    .contact h1 {
+        margin: auto;
+    }
+
+    .contact .row .add .card_body .row .map p {
+        padding-top: 0;
+    }
+
+    .contact .footer {
+        flex-direction: column;
+    }
+
+    .contact .footer .term {
+        padding-top: 1rem;
+    }
+
 
 
 }
@@ -383,18 +332,10 @@
     html {
         font-size: 40%;
     }
-
-
-
     .navbar-toggler-icon {
         width: 3.5em;
         height: 3.5em;
     }
-
-    section {
-        padding-bottom: 20px;
-    }
-
     .header .navbar .logo {
         height: 50px;
     }
@@ -412,10 +353,6 @@
     h3 {
         line-height: 30px;
     }
-
-
-
-
     .review .customercard .name strong {
         font-size: 2.4rem;
     }
@@ -426,6 +363,10 @@
 
     .review .row .card {
         padding: 2.5rem;
+    }
+
+    .review .content p {
+        margin: auto;
     }
 
     .carousel-cell {
@@ -444,21 +385,11 @@
     .about .innerContainer img {
         height: 4.5rem;
     }
-
-
-
-    .pricing .pricingContainer .card .cardButton .button {
-        padding: 1.5rem 3.8rem;
-    }
-
     .pricing .pricingContainer .card .populer p {
 
         font-size: 1.3rem;
-
         padding: 0.5rem 1.9rem;
-
     }
-
     .pricing .pricingContainer .deal .period {
         margin-left: 0.7rem;
         font-size: 2.3rem;
@@ -487,6 +418,14 @@
 
     .pricing .scannerContainer .row .first img {
         height: 20rem;
+    }
+
+    .contact .row .add .card_body .row .map {
+        padding: 0rem;
+    }
+
+    .contact .card .row .wrapper {
+        margin-top: 2rem;
     }
 
 
