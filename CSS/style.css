@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0em;
@@ -192,7 +192,7 @@ a {
 }
 
 .about .mainContainer .bigText {
-    max-width: 62rem;
+    max-width: 67rem;
 }
 
 .about .mainContainer .text h3 span {
