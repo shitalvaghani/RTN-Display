@@ -9,7 +9,7 @@
         position: relative;
     }
 
-    
+
 }
 
 @media (min-width: 993px) and (max-width:1200px) {
@@ -22,7 +22,7 @@
         padding-top: 10rem;
     }
 
-    
+
 }
 
 
@@ -100,9 +100,7 @@
         max-width: 25rem;
     }
 
-    .hardware .row .card .card_body {
-        padding: 2rem;
-    }
+
 
     .hardware .row .card .item p {
         padding-top: 2rem;
@@ -181,6 +179,7 @@
         margin-bottom: 3rem;
         text-align: center;
     }
+
     .review .customercard .name strong {
         font-size: 1.4rem;
     }
@@ -191,6 +190,10 @@
 
     .review .row .card {
         padding: 1.5rem;
+    }
+
+    .review .content p {
+        margin: auto;
     }
 
     .pricing .pricingContainer .card .cardBody .pera {
@@ -260,6 +263,7 @@
     .pricing .scannerContainer .row .scanInfo .head {
         padding-top: 4rem;
     }
+
     .pricing .scannerContainer .row .scanPrice {
         display: flex;
         align-items: center;
@@ -290,7 +294,7 @@
 
     .hardware .row .card .card_body {
         text-align: center;
-
+        padding-bottom: 2rem;
     }
 
     .hardware .row .card .card_body .item {
@@ -300,8 +304,25 @@
         flex-direction: column;
     }
 
+    .hardware .row .gap {
+        margin-right: 0rem;
+        /* margin-bottom: 3rem; */
+    }
+
+    .hardware .row .gap2 {
+        margin-left: 0rem;
+    }
+
+    .contact .row .gap3 {
+        margin-right: 0rem;
+    }
+
+    .contact .row .gap4 {
+        margin-left: 0rem;
+    }
+
     .contact .row .add {
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
     }
 
     .contact .row .add .card_body p {
@@ -332,10 +353,12 @@
     html {
         font-size: 40%;
     }
+
     .navbar-toggler-icon {
         width: 3.5em;
         height: 3.5em;
     }
+
     .header .navbar .logo {
         height: 50px;
     }
@@ -353,6 +376,7 @@
     h3 {
         line-height: 30px;
     }
+
     .review .customercard .name strong {
         font-size: 2.4rem;
     }
@@ -385,11 +409,13 @@
     .about .innerContainer img {
         height: 4.5rem;
     }
+
     .pricing .pricingContainer .card .populer p {
 
         font-size: 1.3rem;
         padding: 0.5rem 1.9rem;
     }
+
     .pricing .pricingContainer .deal .period {
         margin-left: 0.7rem;
         font-size: 2.3rem;
