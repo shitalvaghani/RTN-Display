@@ -119,13 +119,13 @@
             <div class="paddingContainer">
                 <div id="carouselExampleControls" class="carousel mx-auto  slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-bs-interval="2000">
                             <img src="assets/svg/slide1.svg" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="2000">
                             <img src="assets/svg/slide1.svg" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="2000">
                             <img src="assets/svg/slide1.svg" class="d-block w-100" alt="...">
                         </div>
                     </div>
@@ -213,7 +213,9 @@
         <section class="review" id="review">
             <div class="paddingContainer">
                 <div class="content">
-                    <h1 data-aos="fade-up">Trusted by Thousands of Happy Customer</h1>
+                    <div class="up" style="overflow: hidden;">
+                        <h1 data-aos="fade-up">Trusted by Thousands of Happy Customer</h1>
+                    </div>
                     <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut lab</p>
                 </div>
@@ -233,7 +235,7 @@
 
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-bs-interval="2000">
 
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-12">
@@ -319,7 +321,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="2000">
 
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-12">
@@ -407,7 +409,7 @@
                         </div>
 
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="2000">
 
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-12">
@@ -516,7 +518,8 @@
         <!-- pricing  section start -->
         <section class="pricing" id="pricing">
             <div class="paddingContainer">
-                <h1 data-aos="fade-up">Our Pricing</h1>
+                <div style="overflow: hidden;">
+                <h1 data-aos="fade-up">Our Pricing</h1></div>
                 <div class="pricingContainer">
 
                     <div class="row" data-aos="zoom-in-up">
@@ -712,7 +715,8 @@
         <!-- contact part start -->
         <section class="contact" id="contact">
             <div class="paddingContainer">
-                <h1 data-aos="fade-up">We want to hear from you</h1>
+                    <h1 data-aos="fade-up">We want to hear from you</h1>
+                
                 <div class="row">
 
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -797,18 +801,18 @@
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
                                         <strong>Keep exploring</strong>
-                                        <ul>
-                                            <li>About us</li>
-                                            <li>Testimonials</li>
-                                            <li>Partnership</li>
-                                            <li>pricing</li>
-                                            <li>Features</li>
-                                            <li>hardware</li>
-                                        </ul>
+                                        <div class="exploringLink">
+                                            <a href="#">About us</a>
+                                            <a href="#">Testimonials</a>
+                                            <a href="#">Partnership</a>
+                                            <a href="#">pricing</a>
+                                            <a href="#">Features</a>
+                                            <a href="#">hardware</a>
+                                        </div>
 
                                     </div>
-                                    <div class="col-md-6 col-sm-6">
-                                        <strong>other</strong>
+                                    <div class="col-md-6 col-sm-6 other">
+                                        <strong>Other</strong>
                                         <div class="address">
                                             844 W Montgomery St, Milledgeville, GA 31061, United States
                                         </div>
@@ -816,7 +820,6 @@
                                         <div class="map">
                                             <a href="https://www.google.com/maps/place/RealTime+Networking/@33.081254,-83.240773,16z/data=!4m6!3m5!1s0x88f6c7fca71aaaab:0x237c3bf3a822d548!8m2!3d33.081254!4d-83.2407727!16s%2Fg%2F11h5q83g99?hl=en&entry=ttu"
                                                 target="_blank"><img src="assets/svg/map.svg" alt="">Map</a>
-                                            <!-- <p>Map</p> -->
                                         </div>
 
                                         <div class="link">
@@ -839,17 +842,19 @@
                 </div>
 
 
-            </div>
-            <hr>
-            <footer>
-                <div class="footer">
-                    ©2022 RTN Display. All rights reserved
-                    <div class="term">
-                        <span class="pe-5">Privacy & Policy</span>
-                        <span>Terms & Condition</span>
+                <hr>
+                <footer>
+                    <div class="footer">
+                        ©2022 RTN Display. All rights reserved
+                        <div class="term">
+                            <span class="pe-5">Privacy & Policy</span>
+                            <span>Terms & Condition</span>
+                        </div>
                     </div>
-                </div>
-            </footer>
+                </footer>
+
+            </div>
+           
         </section>
 
 

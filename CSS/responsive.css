@@ -55,15 +55,15 @@
     }
 
     .pricing .pricingContainer .card .cardButton .btn {
-
-        padding: 0.5rem 2.5rem;
+        font-size: 1.5rem;
+        /* width: 100%; */
 
     }
 
-    .pricing .pricingContainer .card .cardButton {
+    /* .pricing .pricingContainer .card .cardButton {
         text-align: center;
 
-    }
+    } */
 
     .pricing .pricingContainer .row .card {
         padding: 2rem;
@@ -204,6 +204,9 @@
         padding: 2rem;
         height: auto;
         margin-bottom: 4rem;
+        max-width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .pricing .pricingContainer .card .pt {
@@ -248,8 +251,8 @@
 
     .pricing .pricingContainer .card .cardBody {
         justify-content: center;
-        align-items: center;
     }
+
 
     .pricing .scannerContainer .row .scanInfo .head {
         font-size: 3rem;
@@ -343,6 +346,9 @@
     .contact .footer .term {
         padding-top: 1rem;
     }
+    .contact .row .add .card_body strong {
+        font-size: 1.7rem;
+    }
 
 
 
@@ -414,6 +420,9 @@
         font-size: 1.3rem;
         padding: 0.5rem 1.9rem;
     }
+    .pricing .pricingContainer .card .top {
+        padding-top: 0rem;
+    }
 
     .pricing .pricingContainer .deal .period {
         margin-left: 0.7rem;
@@ -438,7 +447,7 @@
 
     .pricing .pricingContainer .card .cardBody {
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
     }
 
     .pricing .scannerContainer .row .first img {
@@ -452,6 +461,13 @@
     .contact .card .row .wrapper {
         margin-top: 2rem;
     }
+    
+    .contact .row .add .card_body strong {
+        font-size: 2.3rem;
+    }
 
+    .contact .row .add .card_body .row .other {
+        margin-top: 3rem;
+    }
 
 }
