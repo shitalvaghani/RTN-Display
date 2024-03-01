@@ -113,14 +113,12 @@ a {
 }
 
 .paddingContainer {
+    max-width: 1440px;
 
     padding: 5rem;
 }
 
-.main_wrap {
-    max-width: 1440px;
 
-}
 
 
 
@@ -929,13 +927,32 @@ margin-left: 1rem;
     margin-top: 7rem;
 }
 
-
-
-
-
-
-
-
-
-
 /* ------------------footer section css end------------- */
+
+
+
+/* --- page - 2----- */
+
+ /* why us section css start  */
+
+
+ .whyUs .paddingContainer .text{
+    text-align: center;
+    margin-top: 5rem;
+
+}
+.whyUs .paddingContainer .row .content .details strong {
+    font-size: 3rem;
+}
+ 
+
+ .whyUs .paddingContainer .text .subtitle{
+    max-width: 51rem;
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+    margin: auto;
+
+ }
+
+
+
