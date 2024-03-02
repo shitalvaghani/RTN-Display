@@ -118,7 +118,9 @@ a {
     padding: 5rem;
 }
 
-
+.card {
+    border: 0px !important;
+}
 
 
 
@@ -440,7 +442,8 @@ a {
 .pricing .pricingContainer .card strong {
     font-size: 4rem;
 }
-.pricing .pricingContainer .card{
+
+.pricing .pricingContainer .card {
     background-color: var(--bg-gray);
 }
 
@@ -474,25 +477,15 @@ a {
 .pricing .pricingContainer .card:hover {
     box-shadow: 0 0.5rem 1rem 0 #5243C2;
     transform: translateY(-3rem);
-    color: var(--text-white);
-    background-color: var(--text-gray);
 
 }
 
-.pricing .pricingContainer .card:hover p,
-.pricing .pricingContainer .card:hover .plans span {
-
-    color: var(--text-white);
-}
 
 .pricing .pricingContainer .card:hover .main-btn {
     background-color: var(--bg-button-pink);
 }
 
-.pricing .pricingContainer .card:hover .deal .price,
-.pricing .pricingContainer .card:hover .deal .period {
-    color: var(--text-white);
-}
+
 
 
 .pricing .pricingContainer .card .plan1,
@@ -574,9 +567,7 @@ a {
     color: var(--text-dark-gray);
 }
 
-.card {
-    border: 0px !important;
-}
+
 
 .pricing .paddingContainer .scannerContainer {
     border-radius: 3rem;
@@ -643,11 +634,13 @@ a {
     border-radius: 1rem;
     height: 100%;
 }
+
 .hardware .row .gap {
     margin-right: 1rem;
 }
+
 .hardware .row .gap2 {
-margin-left: 1rem;
+    margin-left: 1rem;
 }
 
 .hardware .row .card .card_body {
@@ -702,10 +695,11 @@ margin-left: 1rem;
     padding-bottom: 5rem;
 }
 
-.contact .row .gap3{
+.contact .row .gap3 {
     margin-right: 2rem;
 }
-.contact .row .gap4{
+
+.contact .row .gap4 {
     margin-left: 3rem;
 }
 
@@ -725,7 +719,7 @@ margin-left: 1rem;
 
 .contact .card .row .wrapper {
     width: 100%;
-   
+
     background-color: var(--bg-contact-light-gray);
     padding: 2rem 1.5rem;
     border-radius: 1.5rem;
@@ -736,6 +730,7 @@ margin-left: 1rem;
     padding-bottom: 1.5rem;
     font-weight: 500;
 }
+
 .contact .card .wrapper .content .form-label {
     margin-left: 1rem;
 }
@@ -843,23 +838,25 @@ margin-left: 1rem;
     margin-top: 1rem;
 }
 
-.contact .row .add .card_body .row{
+.contact .row .add .card_body .row {
     padding-top: 3rem;
 }
 
-.contact .row .add .card_body .row .exploringLink{
+.contact .row .add .card_body .row .exploringLink {
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
     font-size: 1.5rem;
     font-weight: 500;
 }
-.contact .row .add .card_body .row .exploringLink a{
+
+.contact .row .add .card_body .row .exploringLink a {
     color: var(--text-black);
     line-height: 3rem;
 
 }
-.contact .row .add .card_body .row .exploringLink a:hover{
+
+.contact .row .add .card_body .row .exploringLink a:hover {
     color: var(--bg-button-pink);
     text-decoration: underline;
 }
@@ -909,6 +906,7 @@ margin-left: 1rem;
     letter-spacing: 0.2rem;
     text-decoration: underline;
 }
+
 .contact .row .add .card_body .row .link a:hover {
     color: var(--bg-button-pink);
 }
@@ -933,26 +931,80 @@ margin-left: 1rem;
 
 /* --- page - 2----- */
 
- /* why us section css start  */
+/* why us section css start  */
 
 
- .whyUs .paddingContainer .text{
+
+.aboutUs .paddingContainer .content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+.aboutUs .paddingContainer .content h1{
+    max-width: 30rem;
+}
+
+.aboutUs .paddingContainer .content .text{
+    max-width: 65rem;
+}
+.aboutUs .paddingContainer .content .text .innerText{
+    padding-bottom: 3rem;
+}
+
+.aboutSlider .sliderContainer{
+    background-color: #ED2A8C;
+    border-radius: 2rem;
+}
+
+.aboutSlider .sliderContainer .carousel-inner img{
+    max-height: 50rem;
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+   
+}
+
+.whyUs .paddingContainer .text {
     text-align: center;
-    margin-top: 5rem;
+    padding-top: 10rem;
+    margin-bottom: 7rem;
+
 
 }
-.whyUs .paddingContainer .row .content .details strong {
-    font-size: 3rem;
-}
- 
 
- .whyUs .paddingContainer .text .subtitle{
+.whyUs .paddingContainer .row .content .details .title {
+    font-size: 3.5rem;
+    max-width: 30rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+}
+.whyUs .paddingContainer .row{
+    margin-bottom: 10rem;
+
+}
+.whyUs .paddingContainer .row .gap1{
+    margin-right: 3rem;
+}
+.whyUs .paddingContainer .row .gap2{
+    margin-left: 3cqw;
+}
+
+.whyUs .paddingContainer .row .card .mainImg img{
+    width: 100%;
+}
+
+
+.whyUs .paddingContainer .row .content .details p {
+    max-width: 47rem;
+
+}
+
+.whyUs .paddingContainer .text .subtitle {
     max-width: 51rem;
     padding-top: 2rem;
     padding-bottom: 7rem;
     margin: auto;
-
- }
-
-
-
+}
