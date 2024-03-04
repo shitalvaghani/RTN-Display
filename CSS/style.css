@@ -97,7 +97,7 @@ a {
 
 
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -291,24 +291,14 @@ a {
 
 /* ---------------main slider section css start -----------------*/
 
-
-
-.carousel-cell {
-    width: 90%;
-    height: 50rem;
-    margin-right: 1rem;
-    border-radius: 1.5rem;
-    background-size: cover;
-    background-position: center center;
-
+.main-slider .slide{
+padding: 10px;
+width: 70%;
 }
 
-
-.carousel-cell::before {
-    display: block;
-    content: "";
+.main-slider .slide .slide_inner img{
+    width: 100%;
 }
-
 
 
 
@@ -318,7 +308,6 @@ a {
 
 /* ------------------review section css start------------- */
 .carousel-indicators {
-    /* bottom: -4rem !important; */
     top: 100%;
     justify-content: flex-end !important;
     margin-left: 0% !important;
@@ -581,7 +570,10 @@ a {
     text-align: center;
     border-radius: 3rem 0 0 0;
 }
+/* .pricing .scannerContainer .row .first img {
+    max-height: 10rem;
 
+} */
 .pricing .paddingContainer .scannerContainer .row .scanPrice {
     background-color: var(--bg-white);
     padding: 4rem;
@@ -641,6 +633,12 @@ a {
 
 .hardware .row .gap2 {
     margin-left: 1rem;
+    background-color: #151515;
+}
+.hardware .row .gap2 .item strong,
+.hardware .row .gap2 .item p{
+    
+    color: var(--text-white);
 }
 
 .hardware .row .card .card_body {
@@ -711,8 +709,13 @@ a {
 
 .contact .card .row .form-control {
     border-radius: 1.5rem;
+    border: none;
     padding: 1.3rem 2rem;
     font-size: 1.8rem;
+}
+.contact .card .row .form-control:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 
@@ -825,7 +828,6 @@ a {
 }
 
 .contact .row .add .card_body {
-    /* margin: auto; */
     padding: 3rem 5rem;
 }
 
@@ -911,6 +913,12 @@ a {
     color: var(--bg-button-pink);
 }
 
+.contact .paddingContainer .arrow {
+    display: flex;
+    padding-top: 5rem;
+    justify-content: end;
+}
+
 .contact .paddingContainer .footer {
     max-height: 20rem;
     display: flex;
@@ -921,9 +929,7 @@ a {
     padding-top: 1.5rem;
 }
 
-.contact .paddingContainer hr {
-    margin-top: 7rem;
-}
+
 
 /* ------------------footer section css end------------- */
 
@@ -951,30 +957,15 @@ a {
     padding-bottom: 3rem;
 }
 
-.aboutSlider .sliderContainer{
-    background-color: #ED2A8C;
-    border-radius: 2rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 5rem;
+.aboutUs .paddingContainer .row .card{
 
+    margin-top: 10rem;
 }
 
-.aboutSlider .sliderContainer .carousel{
-    max-width: 80rem;
-    margin: auto;
-}
 
-.aboutSlider .sliderContainer .carousel-inner img{
-    max-height: 50rem;
-    width: 100%;
-    
-   
-}
 
 .whyUs .paddingContainer .text {
     text-align: center;
-    padding-top: 10rem;
     margin-bottom: 7rem;
 
 
@@ -996,10 +987,12 @@ a {
     margin-right: 3rem;
 }
 .whyUs .paddingContainer .row .gap2{
-    margin-left: 3cqw;
+    margin-left: 3rem;
 }
 
+
 .whyUs .paddingContainer .row .card .mainImg img{
+    height: 100%;
     width: 100%;
 }
 

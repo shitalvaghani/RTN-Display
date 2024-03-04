@@ -12,7 +12,7 @@
 
 }
 
-@media (min-width: 993px) and (max-width:1200px) {
+@media (min-width: 993px) and (max-width:1300px) {
 
     html {
         font-size: 50%;
@@ -49,9 +49,18 @@
         padding-bottom: 2rem;
     }
 
+    .main-slider .slide {
+        width: 80%;
+    }
+
     .review .row .customercard .customimg img {
         height: 5rem;
         width: 5rem;
+    }
+
+
+    .main-slider .paddingContainer .maincarousel .carousel-cell img {
+        width: 97%;
     }
 
     .pricing .pricingContainer .card .cardButton .btn {
@@ -59,7 +68,7 @@
 
     }
 
-   
+
 
     .pricing .pricingContainer .row .card {
         padding: 2rem;
@@ -174,12 +183,8 @@
         padding-bottom: 2rem;
     }
 
-    .carousel-cell {
-        height: 350px;
-    }
-
-    .flickity-enabled.is-draggable .flickity-viewport {
-        height: 350px !important;
+    .main-slider .slide {
+        width: 80%;
     }
 
     .features .box .card .icon {
@@ -354,6 +359,9 @@
     .contact .row .add .card_body .row .map p {
         padding-top: 0;
     }
+    .contact .paddingContainer .arrow img {
+        height: 4rem;
+    }
 
     .contact .footer {
         flex-direction: column;
@@ -455,13 +463,10 @@
         margin: auto;
     }
 
-    .carousel-cell {
-        height: 300px;
+    .main-slider .slide {
+        width: 70%;
     }
 
-    .flickity-enabled.is-draggable .flickity-viewport {
-        height: 300px !important;
-    }
 
     .flickity-prev-next-button {
         height: 3rem !important;
@@ -511,6 +516,10 @@
         height: 20rem;
     }
 
+    .contact .paddingContainer .arrow img {
+        height: 5rem;
+    }
+
     .contact .row .add .card_body .row .map {
         padding: 0rem;
     }
@@ -542,7 +551,5 @@
 
     .whyUs .paddingContainer .row .content .details .title {
         font-size: 3rem;
-
-
     }
 }
