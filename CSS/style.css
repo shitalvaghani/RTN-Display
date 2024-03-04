@@ -114,9 +114,13 @@ a {
 
 .paddingContainer {
     max-width: 1440px;
+    padding-left: 5rem;
+    padding-right: 5rem;
 
-    padding: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
+
 
 .card {
     border: 0px !important;
@@ -283,7 +287,7 @@ a {
 
 .features .box .card:hover {
     transform: translateY(-2rem);
-    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
 }
 
 /* ---------------features section css end -----------------*/
@@ -291,12 +295,12 @@ a {
 
 /* ---------------main slider section css start -----------------*/
 
-.main-slider .slide{
-padding: 10px;
-width: 70%;
+.main-slider .slide {
+    padding: 0 10px;
+    width: 70%;
 }
 
-.main-slider .slide .slide_inner img{
+.main-slider .slide .slide_inner img {
     width: 100%;
 }
 
@@ -464,8 +468,10 @@ width: 70%;
 }
 
 .pricing .pricingContainer .card:hover {
-    box-shadow: 0 0.5rem 1rem 0 #5243C2;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+
     transform: translateY(-3rem);
+
 
 }
 
@@ -570,6 +576,7 @@ width: 70%;
     text-align: center;
     border-radius: 3rem 0 0 0;
 }
+
 /* .pricing .scannerContainer .row .first img {
     max-height: 10rem;
 
@@ -635,9 +642,10 @@ width: 70%;
     margin-left: 1rem;
     background-color: #151515;
 }
+
 .hardware .row .gap2 .item strong,
-.hardware .row .gap2 .item p{
-    
+.hardware .row .gap2 .item p {
+
     color: var(--text-white);
 }
 
@@ -713,6 +721,7 @@ width: 70%;
     padding: 1.3rem 2rem;
     font-size: 1.8rem;
 }
+
 .contact .card .row .form-control:focus {
     outline: none;
     box-shadow: none;
@@ -830,6 +839,12 @@ width: 70%;
 .contact .row .add .card_body {
     padding: 3rem 5rem;
 }
+.contact .row .add .card_body .link{
+    color: var(--text-black);
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
 
 .contact .row .add .card_body strong {
     font-size: 2rem;
@@ -858,7 +873,9 @@ width: 70%;
 
 }
 
-.contact .row .add .card_body .row .exploringLink a:hover {
+.contact .row .add .card_body .row .exploringLink a:hover,
+.contact .row .add .card_body .link:hover{
+    
     color: var(--bg-button-pink);
     text-decoration: underline;
 }
@@ -891,7 +908,7 @@ width: 70%;
     padding-right: 0.5rem;
 }
 
-.contact .row .add .card_body .row .link {
+.contact .row .add .card_body .row .links {
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
@@ -900,7 +917,7 @@ width: 70%;
 
 }
 
-.contact .row .add .card_body .row .link a {
+.contact .row .add .card_body .row .links a {
     color: var(--text-black);
     font-size: 1.5rem;
     padding-bottom: 0.5rem;
@@ -909,14 +926,16 @@ width: 70%;
     text-decoration: underline;
 }
 
-.contact .row .add .card_body .row .link a:hover {
+.contact .row .add .card_body .row .links a:hover {
     color: var(--bg-button-pink);
 }
 
 .contact .paddingContainer .arrow {
     display: flex;
     padding-top: 5rem;
+    padding-bottom: 2rem;
     justify-content: end;
+    cursor: pointer;
 }
 
 .contact .paddingContainer .footer {
@@ -927,6 +946,13 @@ width: 70%;
     font-size: 1.8rem;
     font-weight: 500;
     padding-top: 1.5rem;
+}
+.contact .paddingContainer .footer .term a{
+    color: var(--text-black);
+}
+.contact .paddingContainer .footer .term a:hover{
+    color: var(--bg-button-pink);
+    text-decoration: underline;
 }
 
 
@@ -941,23 +967,25 @@ width: 70%;
 
 
 
-.aboutUs .paddingContainer .content{
+.aboutUs .paddingContainer .content {
     display: flex;
     justify-content: space-between;
     padding-top: 5rem;
 }
-.aboutUs .paddingContainer .content h1{
+
+.aboutUs .paddingContainer .content h1 {
     max-width: 30rem;
 }
 
-.aboutUs .paddingContainer .content .text{
+.aboutUs .paddingContainer .content .text {
     max-width: 65rem;
 }
-.aboutUs .paddingContainer .content .text .innerText{
+
+.aboutUs .paddingContainer .content .text .innerText {
     padding-bottom: 3rem;
 }
 
-.aboutUs .paddingContainer .row .card{
+.aboutUs .paddingContainer .row .card {
 
     margin-top: 10rem;
 }
@@ -979,19 +1007,22 @@ width: 70%;
     margin-top: 3rem;
 
 }
-.whyUs .paddingContainer .row{
+
+.whyUs .paddingContainer .row {
     margin-bottom: 10rem;
 
 }
-.whyUs .paddingContainer .row .gap1{
+
+.whyUs .paddingContainer .row .gap1 {
     margin-right: 3rem;
 }
-.whyUs .paddingContainer .row .gap2{
+
+.whyUs .paddingContainer .row .gap2 {
     margin-left: 3rem;
 }
 
 
-.whyUs .paddingContainer .row .card .mainImg img{
+.whyUs .paddingContainer .row .card .mainImg img {
     height: 100%;
     width: 100%;
 }
