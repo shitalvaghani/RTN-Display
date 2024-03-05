@@ -844,7 +844,7 @@ a {
 .contact .row .add .card_body {
     padding: 3rem 5rem;
 }
-.contact .row .add .card_body .link{
+.contact .row .add .card_body .link a{
     color: var(--text-black);
     font-weight: bolder;
     font-size: 2rem;
@@ -855,10 +855,7 @@ a {
     font-size: 2rem;
 }
 
-.contact .row .add .card_body p {
-    font-weight: bolder;
-    margin-top: 1rem;
-}
+
 
 .contact .row .add .card_body .row {
     padding-top: 3rem;
@@ -877,9 +874,14 @@ a {
     line-height: 3rem;
 
 }
+.contact .row .add .card_body .link p{
+    margin-top: 1rem;
+}
+.contact .row .add .card_body .link a:hover{
+    color: var(--bg-button-pink);
 
-.contact .row .add .card_body .row .exploringLink a:hover,
-.contact .row .add .card_body .link:hover{
+}
+.contact .row .add .card_body .row .exploringLink a:hover{
     
     color: var(--bg-button-pink);
     text-decoration: underline;
@@ -952,10 +954,18 @@ a {
     font-weight: 500;
     padding-top: 1.5rem;
 }
+
+.contact .paddingContainer .footer p,
+.contact .paddingContainer .footer p a {
+    color: var(--text-black);
+}
+
 .contact .paddingContainer .footer .term a{
     color: var(--text-black);
 }
-.contact .paddingContainer .footer .term a:hover{
+.contact .paddingContainer .footer .term a:hover,
+.contact .paddingContainer .footer p a:hover{
+    
     color: var(--bg-button-pink);
     text-decoration: underline;
 }
