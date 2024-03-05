@@ -1,5 +1,18 @@
 
 
+
+
+
+
+//------- arrow bottum to top js-----------
+
+let arrow = document.getElementById("arrow");
+arrow.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+})
+
+
+
 // ----------slider js----------
 var elem = document.querySelector('.slider_wrap');
 var flkty = new Flickity(elem, {
@@ -12,12 +25,3 @@ var flkty = new Flickity(elem, {
     pageDots: false,
     prevNextButtons: false
 });
-
-
-
-//------- arrow bottum to top js-----------
-
-let arrow = document.getElementById("arrow");
-arrow.addEventListener("click", function () {
-    window.scrollTo({ top: 0, behavior: "smooth" })
-})

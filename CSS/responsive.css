@@ -1,6 +1,6 @@
-@media (min-width: 1920px) and (max-width: 3000px) {
+@media (min-width: 1920px) and (max-width: 2560px) {
 
-    body {
+    body{
         display: flex;
         justify-content: center;
     }
@@ -225,7 +225,6 @@
         padding: 2rem;
         height: auto;
         margin-bottom: 4rem;
-        /* max-width: 30rem; */
         margin-left: auto;
         margin-right: auto;
     }
@@ -386,8 +385,14 @@
         align-items: center;
         flex-direction: column;
     }
-
-    .whyUs .paddingContainer .row .card {
+    .aboutUs .paddingContainer .content h1 {
+        max-width: 36rem;
+    }
+    
+    .aboutUs .paddingContainer .content .text {
+        max-width: 75rem;
+    }
+        .whyUs .paddingContainer .row .card {
         display: flex;
         align-items: center;
 
@@ -451,8 +456,7 @@
     }
 
     .slider .carousel {
-        padding-right: 3rem;
-        padding-left: 3rem;
+        padding: 3rem;
     }
 
     .review .customercard .name strong {
@@ -513,7 +517,7 @@
     }
     .pricing .pricingContainer {
          padding: 0rem;
-         background-color: var(--bg-review-card);
+         background-color: transparent;
 
     }
 
