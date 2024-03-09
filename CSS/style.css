@@ -14,7 +14,6 @@ html {
 }
 
 
-
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -115,15 +114,18 @@ a {
 .paddingContainer {
     padding-left: 5rem;
     padding-right: 5rem;
-
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 8rem;
+    /* padding-bottom: 5rem; */
+   
 }
-
-.main_wrap{
+section{
+    /* border: 2px solid black; */
+}
+.main_wrap {
     max-width: 1440px;
 
 }
+
 
 
 .card {
@@ -191,9 +193,7 @@ a {
 
 
 /*--------------- About section css start ------------------------*/
-.mainContainer {
-    margin-top: 1rem;
-}
+
 
 .about .mainContainer .text {
     padding-top: 6rem;
@@ -300,13 +300,16 @@ a {
 
 /* ---------------main slider section css start -----------------*/
 
-.main-slider .slide {
-    padding: 0 10px;
+.main-slider .slider_wrap .slide {
     width: 70%;
 }
 
+
+
 .main-slider .slide .slide_inner img {
     width: 100%;
+    padding-right: 1rem;
+
 }
 
 
@@ -316,6 +319,8 @@ a {
 
 
 /* ------------------review section css start------------- */
+
+
 .carousel-indicators {
     top: 100%;
     justify-content: flex-end !important;
@@ -427,14 +432,15 @@ a {
 
 .pricing {
     background-color: var(--bg-review-card);
-    margin-top: 6rem;
+    margin-top: 10rem;
+    padding-bottom: 5rem;
 }
 
 .pricing .pricingContainer {
     background-color: var(--bg-white);
-    padding: 5rem;
+    padding: 5rem 5rem 5rem 5rem;
     border-radius: 3rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 .pricing .pricingContainer .card strong {
@@ -582,10 +588,7 @@ a {
     border-radius: 3rem 0 0 0;
 }
 
-/* .pricing .scannerContainer .row .first img {
-    max-height: 10rem;
 
-} */
 .pricing .paddingContainer .scannerContainer .row .scanPrice {
     background-color: var(--bg-white);
     padding: 4rem;
@@ -629,6 +632,8 @@ a {
 
 /* ------------------pricing section css end------------- */
 /* ------------------hardware section css start------------- */
+
+
 .hardware .paddingContainer h1 {
     padding: 4rem 0;
 }
@@ -844,7 +849,8 @@ a {
 .contact .row .add .card_body {
     padding: 3rem 5rem;
 }
-.contact .row .add .card_body .link a{
+
+.contact .row .add .card_body .link a {
     color: var(--text-black);
     font-weight: bolder;
     font-size: 2rem;
@@ -874,15 +880,18 @@ a {
     line-height: 3rem;
 
 }
-.contact .row .add .card_body .link p{
+
+.contact .row .add .card_body .link p {
     margin-top: 1rem;
 }
-.contact .row .add .card_body .link a:hover{
+
+.contact .row .add .card_body .link a:hover {
     color: var(--bg-button-pink);
 
 }
-.contact .row .add .card_body .row .exploringLink a:hover{
-    
+
+.contact .row .add .card_body .row .exploringLink a:hover {
+
     color: var(--bg-button-pink);
     text-decoration: underline;
 }
@@ -953,6 +962,7 @@ a {
     font-size: 1.8rem;
     font-weight: 500;
     padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .contact .paddingContainer .footer p,
@@ -960,12 +970,13 @@ a {
     color: var(--text-black);
 }
 
-.contact .paddingContainer .footer .term a{
+.contact .paddingContainer .footer .term a {
     color: var(--text-black);
 }
+
 .contact .paddingContainer .footer .term a:hover,
-.contact .paddingContainer .footer p a:hover{
-    
+.contact .paddingContainer .footer p a:hover {
+
     color: var(--bg-button-pink);
     text-decoration: underline;
 }
@@ -1001,7 +1012,7 @@ a {
 
 .aboutUs .paddingContainer .row .card {
 
-    margin-top: 10rem;
+    margin-top: 13rem;
 }
 
 

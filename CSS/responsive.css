@@ -1,4 +1,4 @@
-@media (min-width: 1920px) and (max-width: 2560px) {
+@media (min-width: 1920px) and (max-width: 5000px) {
 
     body{
         display: flex;
@@ -67,8 +67,6 @@
         font-size: 1.5rem;
 
     }
-
-
 
     .pricing .pricingContainer .row .card {
         padding: 2rem;
@@ -173,6 +171,9 @@
     h6 {
         font-size: 1.9rem;
     }
+    .paddingContainer{
+        padding-top: 5rem;
+    }
 
     .navbar-toggler-icon {
         width: 3.5em;
@@ -215,6 +216,11 @@
 
     .review .content p {
         margin: auto;
+    }
+    
+    .pricing .pricingContainer{
+        margin-top: 1rem;
+        padding: 5rem 5rem 0 5rem;
     }
 
     .pricing .pricingContainer .card .cardBody .pera {
@@ -378,7 +384,9 @@
     }
 
     /* page 2 */
-
+    .aboutUs .paddingContainer{
+        padding-top: 10rem;
+    }
     .aboutUs .paddingContainer .content {
         display: flex;
         justify-content: center;
@@ -392,7 +400,11 @@
     .aboutUs .paddingContainer .content .text {
         max-width: 75rem;
     }
-        .whyUs .paddingContainer .row .card {
+    .aboutUs .paddingContainer .row .card {
+
+        margin-top: 5rem;
+    }
+    .whyUs .paddingContainer .row .card {
         display: flex;
         align-items: center;
 
