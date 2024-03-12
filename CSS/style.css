@@ -54,7 +54,7 @@ h5 {
 h6 {
     color: var(--text-black);
     font-weight: 700;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 p {
@@ -200,7 +200,7 @@ section{
 }
 
 .about .mainContainer .bigText {
-    max-width: 67rem;
+    max-width: 75rem;
 }
 
 .about .mainContainer .text h3 span {
@@ -209,12 +209,16 @@ section{
 
 .about .header-buttons {
     padding-top: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about .header-buttons .button {
     background-color: var(--bg-white);
     border: 0.1rem solid var(--bg-button);
     color: var(--text-black);
+    margin-left: 2rem;
 }
 
 .about .header-buttons .button:hover {
@@ -265,7 +269,7 @@ section{
 }
 
 .features .content h1 {
-    max-width: 30rem;
+    max-width: 45rem;
 }
 
 .features .content p {
@@ -275,11 +279,17 @@ section{
 
 .features .box .card {
     /* max-width: 38rem; */
-    padding: 3rem;
+    height: 100%;
+    padding: 2rem 3rem;
     border-radius: 1rem;
     border: 0rem !important;
     background-color: var(--bg-gray);
     transition: 0.4s ease;
+}
+.features .box .row .card .cardBody {
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 .features .box .row {
@@ -365,22 +375,28 @@ section{
 .carousel-control-next {
 
     left: 6em !important;
-    /* color: black!important; */
 
 }
 
-
+.review .content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
 .review .content h1 {
-    max-width: 70rem;
+    max-width: 55rem;
 }
 
 .review .content p {
     padding-top: 1rem;
     max-width: 50rem;
 }
+.review .row {
+    margin-top: 4rem;
+}
 
 .review .row .card {
-    margin-top: 4rem;
+    height: 100%;
     border: none;
     padding: 2.5rem;
     background-color: var(--bg-review-card);
@@ -448,6 +464,10 @@ section{
 }
 
 .pricing .pricingContainer .card {
+    padding: 2rem;
+    border-radius: 3rem;
+    transition: 0.4s ease;
+    height: 100%;
     background-color: var(--bg-gray);
 }
 
@@ -471,12 +491,7 @@ section{
     flex-grow: 1;
 }
 
-.pricing .pricingContainer .row .card {
-    padding: 2rem;
-    border-radius: 3rem;
-    transition: 0.4s ease;
-    height: 100%;
-}
+
 
 .pricing .pricingContainer .card:hover {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
@@ -494,8 +509,8 @@ section{
 
 
 
-.pricing .pricingContainer .card .plan1,
-.pricing .pricingContainer .card .plan2 {
+.pricing .pricingContainer .card .plan1{
+/* .pricing .pricingContainer .card .plan2 { */
 
     display: flex;
     align-items: center;
@@ -536,8 +551,8 @@ section{
     font-weight: 600;
     max-width: 15rem;
     padding: 1rem 2.5rem;
-    background-color: var(--bg-light-pink);
-    color: var(--bg-button-pink);
+    background-color: #422658;
+    color: #ED2A8C;
 }
 
 .pricing .pricingContainer .card .populer {
@@ -618,8 +633,9 @@ section{
 
 }
 
-.pricing .scannerContainer .row .scanInfo .head {
-    max-width: 35rem;
+
+.pricing .scannerContainer .row .scanInfo .head{
+    max-width: 30rem;
     font-size: 3.5rem;
     line-height: normal;
     padding-bottom: 2.5rem;
@@ -676,6 +692,11 @@ section{
     padding-top: 2rem;
     max-width: 37rem;
 }
+.hardware .row .card .item a {
+    color: var(--text-white);
+    font-size: 1.7rem;
+
+}
 
 .hardware .row .card .logos {
     padding-top: 3rem;
@@ -698,7 +719,18 @@ section{
 .hardware .row .card .scannerimg img {
     height: 35rem;
     padding-top: 3rem;
-
+}
+.hardware .row .card .price {
+    background-color: var(--bg-white);
+    max-width: 8rem;
+    margin: auto;
+    /* margin-top: 1rem; */
+}
+.hardware .row .card .price p{
+    color: var(--text-black);
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0.5rem;
 }
 
 /* ------------------hardware section css end------------- */
@@ -848,6 +880,7 @@ section{
 
 .contact .row .add .card_body {
     padding: 3rem 5rem;
+   
 }
 
 .contact .row .add .card_body .link a {
@@ -1007,7 +1040,7 @@ section{
 }
 
 .aboutUs .paddingContainer .content .text .innerText {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .aboutUs .paddingContainer .row .card {
@@ -1026,7 +1059,7 @@ section{
 
 .whyUs .paddingContainer .row .content .details .title {
     font-size: 3.5rem;
-    max-width: 30rem;
+    max-width: 45rem;
     line-height: 4rem;
     margin-bottom: 3rem;
     margin-top: 3rem;
@@ -1063,3 +1096,58 @@ section{
     padding-bottom: 7rem;
     margin: auto;
 }
+
+/* why us section css end  */
+
+
+
+/* --- page - 3----- */
+/* privacy section css start  */
+.privacy .paddingContainer .content .text{
+    margin-top: 5rem;
+}
+.privacy .paddingContainer .content p{
+    font-size: 1.8rem;
+}
+
+.privacy .paddingContainer .content ul{
+    padding: 2rem 5rem;
+    font-size: 1.5rem;
+}
+.privacy .paddingContainer .content ul li{
+    list-style-type:disc;
+}
+.privacy .paddingContainer .content span{
+    font-size: 1.8rem;
+    color: var(--text-gray);
+}
+.privacy .paddingContainer .content h3{
+    padding: 2rem 0;
+}
+.privacy .paddingContainer .content h4{
+    padding: 1rem 0;
+}
+
+
+
+/* privacy section css end  */
+
+
+/* --- page - 4----- */
+/* terms section css start  */
+
+.terms .paddingContainer .content h1{
+    padding: 5rem 0;
+}
+
+.terms .paddingContainer .content h4{
+    padding: 1.5rem 0;
+    font-size: 2.8rem;
+}
+.terms .paddingContainer .content strong{
+    /* font-size: 1.5rem; */
+    color: black;
+}
+
+
+/* terms section css end  */
