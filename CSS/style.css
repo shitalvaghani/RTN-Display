@@ -381,7 +381,6 @@ section{
 .review .content{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .review .content h1 {
     max-width: 55rem;
@@ -510,11 +509,10 @@ section{
 
 
 .pricing .pricingContainer .card .plan1{
-/* .pricing .pricingContainer .card .plan2 { */
 
     display: flex;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .pricing .pricingContainer .card .pera {
@@ -617,7 +615,7 @@ section{
 .pricing .scannerContainer .row .scanPrice p {
     color: var(--text-black);
     font-size: 2rem;
-    max-width: 40rem;
+    max-width: 55rem;
     padding-top: 2rem;
 }
 
